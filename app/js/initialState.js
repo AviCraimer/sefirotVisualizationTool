@@ -5,7 +5,7 @@ const appState =  {
     boundaryCircleRadius: 56.424,
     sefirotData: [
         {
-            id: "sephira01",
+            id: "sefira01",
             boundaryCircleCoordinates: {
                 cx: 947.39,
                 cy: 408.231,
@@ -14,7 +14,7 @@ const appState =  {
         },
 
         {
-            id: "sephira02",
+            id: "sefira02",
             boundaryCircleCoordinates: {
                 cx: 1147.39,
                 cy: 665.509,
@@ -23,7 +23,7 @@ const appState =  {
 
         },
         {
-            id: "sephira03",
+            id: "sefira03",
             boundaryCircleCoordinates: {
                 cx: 747.39,
                 cy: 665.509,
@@ -32,7 +32,7 @@ const appState =  {
 
         },
         {
-            id: "sephira04",
+            id: "sefira04",
             boundaryCircleCoordinates: {
                 cx: 1147.39,
                 cy: 922.786,
@@ -41,7 +41,7 @@ const appState =  {
 
         },
         {
-            id: "sephira05",
+            id: "sefira05",
             boundaryCircleCoordinates: {
                 cx: 747.39,
                 cy: 922.786,
@@ -50,7 +50,7 @@ const appState =  {
 
         },
         {
-            id: "sephira06",
+            id: "sefira06",
             boundaryCircleCoordinates: {
                 cx: 947.39,
                 cy: 1180.06,
@@ -59,7 +59,7 @@ const appState =  {
 
         },
         {
-            id: "sephira07",
+            id: "sefira07",
             boundaryCircleCoordinates: {
                 cx: 1147.39,
                 cy: 1437.34,
@@ -68,7 +68,7 @@ const appState =  {
 
         },
         {
-            id: "sephira08",
+            id: "sefira08",
             boundaryCircleCoordinates: {
                 cx: 747.39,
                 cy: 1437.34,
@@ -77,7 +77,7 @@ const appState =  {
 
         },
         {
-            id: "sephira09",
+            id: "sefira09",
             boundaryCircleCoordinates: {
                 cx: 947.39,
                 cy: 1694.62,
@@ -87,7 +87,7 @@ const appState =  {
 
         },
         {
-            id: "lower-sephira01",
+            id: "lower-sefira01",
             boundaryCircleCoordinates: {
                 cx: 947.39,
                 cy: 3238.3,
@@ -96,7 +96,7 @@ const appState =  {
 
         },
         {
-            id: "lower-sephira02",
+            id: "lower-sefira02",
             boundaryCircleCoordinates: {
                 cx: 747.39,
                 cy: 2981.03,
@@ -106,7 +106,7 @@ const appState =  {
 
         },
         {
-            id: "lower-sephira03",
+            id: "lower-sefira03",
             boundaryCircleCoordinates: {
                 cx: 1147.39,
                 cy: 2981.03,
@@ -116,7 +116,7 @@ const appState =  {
 
         },
         {
-            id: "lower-sephira04",
+            id: "lower-sefira04",
             boundaryCircleCoordinates: {
                 cx: 747.39,
                 cy: 2723.75,
@@ -125,7 +125,7 @@ const appState =  {
 
         },
         {
-            id: "lower-sephira05",
+            id: "lower-sefira05",
             boundaryCircleCoordinates: {
                 cx: 1147.39,
                 cy: 2723.75,
@@ -134,7 +134,7 @@ const appState =  {
 
         },
         {
-            id: "lower-sephira06",
+            id: "lower-sefira06",
             boundaryCircleCoordinates: {
                 cx: 947.39,
                 cy: 2466.47,
@@ -143,7 +143,7 @@ const appState =  {
 
         },
         {
-            id: "lower-sephira07",
+            id: "lower-sefira07",
             boundaryCircleCoordinates: {
                 cx: 747.39,
                 cy: 2209.2,
@@ -152,7 +152,7 @@ const appState =  {
 
         },
         {
-            id: "lower-sephira08",
+            id: "lower-sefira08",
             boundaryCircleCoordinates: {
                 cx: 1147.39,
                 cy: 2209.2,
@@ -161,7 +161,7 @@ const appState =  {
 
         },
         {
-            id: "lower-sephira09",
+            id: "lower-sefira09",
             boundaryCircleCoordinates: {
                 cx: 947.39,
                 cy: 1951.92,
@@ -170,7 +170,7 @@ const appState =  {
 
         }
 
-    ], // End of sephirotData
+    ], // End of sefirotData
     names: {
         esoteric: [
             'Keter', 'Chokhmah', 'Binah', 'Chesed', 'Gevurah', 'Tifferet', 'Netzach', 'Hod', 'Yesod', 'Chaos', 'Matter', 'Tartarus', 'Gaea', 'Thanatos', 'Malkhut', 'Daimon', 'Nemesis', 'Kundalini'

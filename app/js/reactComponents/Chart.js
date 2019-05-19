@@ -54,8 +54,8 @@ render  () {
 
 return (
 
-    <div className="sephirot-chart">
-        <form className='sephirot-chart__controls'  action=""
+    <div className="sefirot-chart">
+        <form className='sefirot-chart__controls'  action=""
 
         >
         <select name="Names" value={namesToDisplay}
@@ -96,7 +96,7 @@ return (
             } } />
         </form>
 
-        <svg  className="sephirot-chart_svg" width="100%"   height="100%" viewBox="400 200 1100 3347" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve"
+        <svg  className="sefirot-chart_svg" width="100%"   height="100%" viewBox="400 200 1100 3347" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve"
         onWheel={(e) =>  {
             const isZoom = e.getModifierState('Meta') || e.getModifierState('Control');
 
@@ -117,7 +117,7 @@ return (
 
             return (
 
-            <g id={sefira.id} key={sefira.id} className="sephirot-chart__sephira">
+            <g id={sefira.id} key={sefira.id} className="sefirot-chart__sefira">
                 <circle
                     cx={x}
                     cy={y}
@@ -126,7 +126,7 @@ return (
                 {/* y={y-r} style={ {height: (r*2) +'px', width: (r*2) +'px'} } */}
                 <foreignObject  x={x-r} y={y-r} width={length} height={length} >
 
-                    <div className='sephirot-chart__sephira__innerText' >
+                    <div className='sefirot-chart__sefira__innerText' >
 
                      <p>{names[namesToDisplay][i]}</p>
 
@@ -139,7 +139,7 @@ return (
             ) })
         }
     </svg>
-</div>) //End of sephirot-chart
+</div>) //End of sefirot-chart
 }// End of Render
 
 } //End of component

@@ -53,7 +53,7 @@ class Main extends React.Component {
     render() {
         return (
         <main>
-            <h1>18 Sephirot</h1>
+            <h1>18 sefirot</h1>
 
             <Chart />
         </main>
