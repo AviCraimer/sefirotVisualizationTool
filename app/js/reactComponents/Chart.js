@@ -8,7 +8,7 @@ class Chart extends React.Component {
 
         this.state = {
             zoomLevel: 1,
-            namesToDisplay: 'esoteric',
+            namesToDisplay: 'Esoteric',
             radius: 56,
             inceptionX: 947.39,
             inceptionY: 408.231,
@@ -47,6 +47,7 @@ render  () {
 
     const {sefirotData, names, xStart, yStart} = this.props;
     const {radius, zoomLevel, namesToDisplay, stepSizeX, stepSizeY} = this.state;
+    console.log(names, namesToDisplay);
     const dynamicScale = (this.state.zoomLevel * 100) + '%'
     const r = radius;
     const length = Math.round(r*2) + 'px';
@@ -96,7 +97,7 @@ return (
             } } />
         </form>
 
-        <svg  className="sefirot-chart_svg" width="100%"   height="100%" viewBox="400 200 1100 3347" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve"
+        <svg  className="sefirot-chart_svg" width="100%"   height="100%" viewBox="400 200 1100 3647" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve"
         onWheel={(e) =>  {
             const isZoom = e.getModifierState('Meta') || e.getModifierState('Control');
 
